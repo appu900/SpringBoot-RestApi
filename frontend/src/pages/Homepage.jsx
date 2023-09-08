@@ -144,6 +144,7 @@ const Homepage = () => {
             fullname={user.userName}
             name={user.name}
             email={user.email}
+            user={user}
             />
           ))}
         </div>
